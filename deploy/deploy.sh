@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEPLOY_DIR="/home/itzuser/ieam-edge-mvi-demo/mvi"
+DEPLOY_DIR="/home/itzuser/ieam-edge-mvi-demo/deploy"
 . ~/env.sh
 
 APP_IMAGE_BASE=na.artifactory.swg-devops.com/igm-ibm-gsc-team-docker-local/marvinimages/cluster:mvi-edge
