@@ -58,5 +58,18 @@ rules:
   - "apps"
   resources:
   - "deployments"
-
+# Permission to create routes
+- apiGroups:
+  - route.openshift.io
+  resources:
+  - routes
+  - routes/custom-host
+  verbs:
+  - get
+  - list
+  - watch
+  - patch
+  - update
+  - create
+  - delete
 #+kubebuilder:scaffold:rules
