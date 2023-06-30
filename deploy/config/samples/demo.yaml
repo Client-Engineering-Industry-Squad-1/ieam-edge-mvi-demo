@@ -16,7 +16,7 @@ spec:
     repository: {{APP_IMAGE_BASE}}
     tag: {{IMAGE_VERSION}}
   imagePullSecrets:
-    - mvi-pull-secret
+  - mvi-pull-secret
   ingress:
     annotations: {}
     className: ""
