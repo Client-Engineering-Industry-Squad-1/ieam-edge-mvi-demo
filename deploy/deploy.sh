@@ -3,8 +3,8 @@
 DEPLOY_DIR="/home/itzuser/ieam-edge-mvi-demo/deploy"
 . ~/env.sh
 
-APP_IMAGE_BASE=na.artifactory.swg-devops.com/igm-ibm-gsc-team-docker-local/marvinimages/cluster:mvi-edge
-IMAGE_VERSION=latest
+APP_IMAGE_BASE=na.artifactory.swg-devops.com/igm-ibm-gsc-team-docker-local/marvinimages/cluster
+IMAGE_VERSION=mvi-edge
 APP_IMAGE=$APP_IMAGE_BASE:$IMAGE_VERSION
 OPERATOR_IMAGE_BASE="docker.io/appimage/ieam-edge-mvi-operator"
 OPERATOR_IMAGE=$OPERATOR_IMAGE_BASE:$IMAGE_VERSION
