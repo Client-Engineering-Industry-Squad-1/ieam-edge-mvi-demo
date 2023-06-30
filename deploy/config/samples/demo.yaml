@@ -15,7 +15,8 @@ spec:
     pullPolicy: IfNotPresent
     repository: {{APP_IMAGE_BASE}}
     tag: {{IMAGE_VERSION}}
-  imagePullSecrets: []
+  imagePullSecrets:
+    - mvi-pull-secret
   ingress:
     annotations: {}
     className: ""
