@@ -1,0 +1,8 @@
+{
+  "HZN_ORG_ID": "albertsonsce",
+  "MetadataVars": {
+    "DOCKER_IMAGE_BASE": "",
+    "SERVICE_NAME": "edge-cluster-mvi",
+    "SERVICE_VERSION": "1.0.0"
+  }
+}

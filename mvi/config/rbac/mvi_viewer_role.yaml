@@ -1,0 +1,27 @@
+# permissions for end users to view mvis.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: mvi-viewer-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: mvi
+    app.kubernetes.io/part-of: mvi
+    app.kubernetes.io/managed-by: kustomize
+  name: mvi-viewer-role
+rules:
+- apiGroups:
+  - mvi.mvi.ai
+  resources:
+  - mvis
+  verbs:
+  - get
+  - list
+  - watch
+- apiGroups:
+  - mvi.mvi.ai
+  resources:
+  - mvis/status
+  verbs:
+  - get

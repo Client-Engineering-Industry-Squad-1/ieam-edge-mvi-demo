@@ -1,0 +1,6 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: mvi.mvi.ai
+  version: v1alpha1
+  kind: MVI
+  chart: helm-charts/mvi
+#+kubebuilder:scaffold:watch

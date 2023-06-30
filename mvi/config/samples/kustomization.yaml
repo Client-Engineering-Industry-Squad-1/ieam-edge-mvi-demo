@@ -1,0 +1,4 @@
+## Append samples of your project ##
+resources:
+- mvi_v1alpha1_mvi.yaml
+#+kubebuilder:scaffold:manifestskustomizesamples
