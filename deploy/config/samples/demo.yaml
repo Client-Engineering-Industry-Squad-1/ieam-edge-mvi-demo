@@ -35,7 +35,7 @@ spec:
   securityContext: {}
   service:
     port: 9002
-    type: ClusterIP
+    type: NodePort
   serviceAccount:
     annotations: {}
     create: true
