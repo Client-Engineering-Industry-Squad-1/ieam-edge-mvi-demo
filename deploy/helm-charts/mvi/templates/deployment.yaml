@@ -39,12 +39,12 @@ spec:
               protocol: TCP
           livenessProbe:
             httpGet:
-              path: /
+              path: /swagger/index.html
               port: http
               scheme: HTTPS
           readinessProbe:
             httpGet:
-              path: /
+              path: /swagger/index.html
               port: http
               scheme: HTTPS
           resources:
