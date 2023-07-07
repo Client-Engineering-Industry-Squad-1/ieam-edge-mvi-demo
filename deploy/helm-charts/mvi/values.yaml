@@ -81,8 +81,3 @@ tolerations: []
 
 affinity: {}
 
-livenessProbe:
-  path: "/swagger/index.html"
-
-readinessProbe:
-  path: "/swagger/index.html"
