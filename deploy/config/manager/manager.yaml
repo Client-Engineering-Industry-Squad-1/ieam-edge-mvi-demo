@@ -57,7 +57,7 @@ spec:
         - --leader-elect
         - --leader-election-id=mvi
         image: controller:latest
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         name: manager
         securityContext:
           allowPrivilegeEscalation: false
