@@ -22,7 +22,8 @@ spec:
     spec:
       {{- with .Values.imagePullSecrets }}
       imagePullSecrets:
-        {{- toYaml . | nindent 8 }}
+        # {{- toYaml . | nindent 8 }}
+        - na-image-registry
       {{- end }}
       serviceAccountName: {{ include "mvi.serviceAccountName" . }}
       securityContext:
