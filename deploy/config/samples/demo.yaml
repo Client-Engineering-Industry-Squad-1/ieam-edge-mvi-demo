@@ -15,7 +15,8 @@ spec:
     pullPolicy: IfNotPresent
     repository: {{APP_IMAGE_BASE}}
     tag: {{IMAGE_VERSION}}
-  imagePullSecrets: []
+  imagePullSecrets:
+  - na-image-registry
   ingress:
     annotations: {}
     className: ""
