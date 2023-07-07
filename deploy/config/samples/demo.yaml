@@ -39,7 +39,7 @@ spec:
   serviceAccount:
     annotations: {}
     create: true
-    name: ""
+    name: "default"
   tolerations: []
   
   
