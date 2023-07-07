@@ -15,7 +15,6 @@ spec:
     pullPolicy: Always
     repository: {{APP_IMAGE_BASE}}
     tag: {{IMAGE_VERSION}}
-  imagePullSecrets: []
   ingress:
     annotations: {}
     className: ""
