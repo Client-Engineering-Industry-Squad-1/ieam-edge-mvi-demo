@@ -12,7 +12,7 @@ spec:
     targetCPUUtilizationPercentage: 80
   fullnameOverride: ""
   image:
-    pullPolicy: IfNotPresent
+    pullPolicy: Always
     repository: {{APP_IMAGE_BASE}}
     tag: {{IMAGE_VERSION}}
   imagePullSecrets: []
