@@ -41,12 +41,10 @@ spec:
             httpGet:
               path: /swagger/index.html
               port: http
-              scheme: HTTPS
           readinessProbe:
             httpGet:
               path: /swagger/index.html
               port: http
-              scheme: HTTPS
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
       {{- with .Values.nodeSelector }}
