@@ -18,5 +18,5 @@
       "value": "store-cluster"
     }
   ],
-  "constraints": ["device-type == store-cluster", "store-brand == albertsons"]
+  "constraints": ["device-type == store-cluster AND store-brand == albertsons"]
 }
