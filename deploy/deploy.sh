@@ -1,6 +1,6 @@
 #!/bin/bash
 
-DEPLOY_DIR="/home/itzuser/ieam-edge-mvi-demo/deploy"
+DEPLOY_DIR="/Users/jennifer.nguyen/Desktop/Github/jenn-public/ieam-edge-mvi-demo/deploy"
 . ../secret_env_pep.sh
 
 APP_IMAGE_BASE=na.artifactory.swg-devops.com/igm-ibm-gsc-team-docker-local/marvinimages/cluster
