@@ -19,9 +19,9 @@ jq --arg IMAGE_VERSION "1.0.0" '.MetadataVars.SERVICE_VERSION |= $IMAGE_VERSION'
 
 make docker-build docker-push IMG=$OPERATOR_IMAGE
 
-rm operator.tar.gz & rm -rf deploy && mkdir -p deploy
+rm operator.tar.gz
 kustomize build config/default > deploy/kustomize_manifests_operator.yaml
-tar -C deploy -czf operator.tar.gz . && rm -rf deploy
+tar -C deploy -czf operator.tar.gz .
 
 hzn exchange service publish -f $DEPLOY_DIR/horizon/service.definition.json --overwrite
 HZN_POLICY_NAME="ceorg/policy-mvi-fire-ext-model"
