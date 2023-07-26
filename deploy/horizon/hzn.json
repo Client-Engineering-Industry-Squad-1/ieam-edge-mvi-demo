@@ -1,8 +1,8 @@
 {
-  "HZN_ORG_ID": "albertsonsce",
+  "HZN_ORG_ID": "ceorg",
   "MetadataVars": {
     "DOCKER_IMAGE_BASE": "",
-    "SERVICE_NAME": "edge-cluster-ai-app",
+    "SERVICE_NAME": "mvi-fire-ext",
     "SERVICE_VERSION": "1.0.0"
   }
 }

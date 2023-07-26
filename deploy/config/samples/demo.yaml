@@ -1,7 +1,7 @@
 apiVersion: mvi.mvi.ai/v1alpha1
 kind: MVI
 metadata:
-  name: mvi-sample
+  name: mvi-fire-ext-model
 spec:
   # Default values copied from <project_dir>/helm-charts/mvi/values.yaml
   affinity: {}

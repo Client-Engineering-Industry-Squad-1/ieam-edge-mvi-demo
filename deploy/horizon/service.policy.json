@@ -15,8 +15,8 @@
   "properties": [
     {
       "name": "device-type",
-      "value": "store-cluster"
+      "value": "hci-cluster"
     }
   ],
-  "constraints": ["device-type == store-cluster AND store-brand == albertsons"]
+  "constraints": ["device-type == hci-cluster"]
 }
