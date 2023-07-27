@@ -1,4 +1,4 @@
-# ieam-edge-mvi-demo 
+# ieam-edge-mvi-demo
 
 1. Create a namespace called "mvi-edge"
 2. Create a image pull secret called "custom-pull-secret" authenticating to the registry with the MVI image

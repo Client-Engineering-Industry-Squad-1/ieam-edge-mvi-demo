@@ -1,0 +1,6 @@
+# Use the 'create api' subcommand to add watches to this file.
+- group: mvi.mvifireext.ai
+  version: v1alpha1
+  kind: MVIFireExt
+  chart: helm-charts/mvi
+#+kubebuilder:scaffold:watch

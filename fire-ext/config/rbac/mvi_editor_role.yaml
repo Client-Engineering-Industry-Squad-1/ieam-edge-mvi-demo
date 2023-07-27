@@ -1,0 +1,31 @@
+# permissions for end users to edit mvifireexts.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  labels:
+    app.kubernetes.io/name: clusterrole
+    app.kubernetes.io/instance: mvifireext-editor-role
+    app.kubernetes.io/component: rbac
+    app.kubernetes.io/created-by: mvifireext
+    app.kubernetes.io/part-of: mvifireext
+    app.kubernetes.io/managed-by: kustomize
+  name: mvifireext-editor-role
+rules:
+- apiGroups:
+  - mvi.mvifireext.ai
+  resources:
+  - mvifireexts
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - mvi.mvifireext.ai
+  resources:
+  - mvifireexts/status
+  verbs:
+  - get
