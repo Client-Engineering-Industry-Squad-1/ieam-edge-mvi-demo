@@ -386,6 +386,8 @@ spec:
           capabilities:
             drop:
             - ALL
+      imagePullSecrets:
+      - name: operator-image-registry
       securityContext:
         runAsNonRoot: true
       serviceAccountName: mvi-fire-ext-controller-manager

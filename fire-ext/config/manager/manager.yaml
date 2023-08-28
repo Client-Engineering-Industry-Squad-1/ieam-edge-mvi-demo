@@ -86,4 +86,6 @@ spec:
             cpu: 10m
             memory: 256Mi
       serviceAccountName: controller-manager
+      imagePullSecrets:
+        - name: operator-image-registry
       terminationGracePeriodSeconds: 10

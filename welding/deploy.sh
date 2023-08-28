@@ -1,7 +1,7 @@
 #!/bin/bash
 
-MODEL_DIR="/Users/jennifer.nguyen/Desktop/Github/jenn-public/ieam-edge-mvi-demo/welding"
-. ../secret_env_pep.sh
+MODEL_DIR="<PATH_TO_PROJECT>/ieam-edge-mvi-demo/welding"
+. ../env.sh
 
 APP_IMAGE_BASE=na.artifactory.swg-devops.com/igm-ibm-gsc-team-docker-local/marvinimages/cluster/mvi
 IMAGE_VERSION=welding
